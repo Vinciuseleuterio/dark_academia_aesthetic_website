@@ -2,6 +2,32 @@
     box-sizing: border-box;
 }
 
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: white;
+}
+
+.content {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.content_width {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .banner {
     background: url(/img/darkAcademiaBanner.png) no-repeat center center fixed;
     height: 80vh;
@@ -43,7 +69,6 @@
     padding: 0px 30px;
     margin-top: 5px;
     text-align: center;
-
 }
 
 .leaves_divider {
@@ -60,35 +85,19 @@
     position: absolute;
 }
 
-.principal_content_info {
-    width: 60%;
-}
-
-.background-brown {
-    background-color: #241a15;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0px;
-}
-
 
 .title_info {
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    color: white;
     margin-bottom: 10px;
-    font-style: italic;
+    padding-top: 40px;
 }
 
 .text_content {
-    padding: 30px;
+    padding-bottom: 100px;
     display: flex;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: large;
+    border-bottom: white 3px solid;
 }
 
 .title_content_info {
@@ -106,22 +115,16 @@
     border-right: 3px white solid;
     padding-right: 20px;
     text-align: justify;
-    width: 50%;
 }
 
 .text2_info {
     padding-left: 20px;
     border-left: 3px white solid;
     text-align: justify;
-    width: 50%;
 }
 
 .color_pallete_title {
-    padding-top: 55px;
-    border-top: white 3px solid;
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
+    padding-top: 10px;
     text-align: center;
     margin-top: 50px;
 }
@@ -130,17 +133,16 @@
     background-color: #241a15;
     justify-content: center;
     flex-direction: column;
-    width: 35%;
+    width: 60%;
     display: flex;
 
 }
 
 .color_pallete_text {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: large;
     text-align: center;
     padding-top: 20px;
+
 
 }
 
@@ -148,15 +150,17 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
     display: flex;
+    width: 100%;
     justify-content: space-around;
-    width: 60%;
+    padding-bottom: 100px;
+    border-bottom: white 3px solid;
 
-    padding-bottom: 40px;
 }
 
 .color_pallete_circles p {
     text-align: center;
     padding-top: 10px;
+
 
 }
 
@@ -171,4 +175,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+}
+
+.images_and_content_title {
+    padding-top: 10px;
+
 }
